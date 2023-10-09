@@ -1,0 +1,27 @@
+{
+  "name": "fullstackassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend":"cd frontend && npm start",
+    "backend":"cd backend && nodemon server",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avinashpotnuru/padhakkuassignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avinashpotnuru/padhakkuassignment/issues"
+  },
+  "homepage": "https://github.com/Avinashpotnuru/padhakkuassignment#readme",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
